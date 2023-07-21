@@ -9,12 +9,13 @@
     "install": "cd server && npm i && cd ../client && npm i",
     "build": "cd client && npm run build"
   },
-  "engines": {
-    "node": "18.x"
-  },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "engines": {
+    "node": "18.x"
+  },
+
   "devDependencies": {
     "concurrently": "^5.1.0"
   },
